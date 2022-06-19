@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+  background-color: #090A0E;
+  color: white;
+  scroll-behavior: smooth;
+}
+
+.headerContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headerContent > h1 {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 48px;
+  letter-spacing: 3px;
+  color: #E50914;
+  margin: 0;
+}
+
+.headerContent > h1 > span {
+  font-size: 24px;
+}
+
+.headerContent > form > input {
+  height: 40px;
+  width: 300px;
+  margin-right: 20px;
+  background-color: #090A0E;
+  border: 1px solid #E50914;
+  border-radius: 15px;
+  color: white;
+  font-size: 20px;
+  padding: 0px 30px;
+}
+
+.headerContent > form > button {
+  background-color: black;
+  color: #E50914;
+  border: none;
+  box-shadow: 0.5px 0.5px 10px rgb(255, 33, 33);
+  border-radius: 20px;
+  padding: 10px 10px;
+  cursor: pointer;
+}
+
+.centerMax {
+  max-width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  background-color: #0f1014;
+  padding: 15px;
+}
+.poster {
+  width: 100%;
+}
+
+.movieCard{
+  font-family: 'Montserrat', sans-serif;
+  cursor: pointer;
+}
+
+.movieCard > p {
+  font-size: 12px;
+  font-weight: 00;
+}
+
+.posterPlaceholder {
+  min-height: 359px;
+  background-color: rgb(170, 170, 170);
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.board {
+  min-height: 500px;
+  background-position: top center;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+}
+
+.boardContent {
+  margin: 0 20px;
+}
+
+.boardContent > h1 {
+  font-size: 60px;
+  margin: 0;
+  line-height: 1;
+  text-shadow: 1px 1px 20px rgb(80, 80, 80);
+}
+
+.boardContent > p {
+  font-size: 18px;
+  text-shadow: 2px 2px 30px rgb(0, 0, 0);
+  margin-bottom: 30px;
+}
+
+.boardButton {
+  background-color: black;
+  color: white;
+  border: none;
+  box-shadow: 1px 1px 10px rgb(199, 199, 199);
+  border-radius: 20px;
+  padding: 7px 15px;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+.youtube-container {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.boardButtonClose {
+  position: absolute;
+  z-index: 10;
+  bottom: 30px;
+  left: 30px;
+}
